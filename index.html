@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+    <!--=============== FONT-AWESOME ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Sneakers</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a class="nav__logo" href="index.html">Sneakers</a>
+        <div class="nav__menu" id="nav__menu">
+          <ul class="nav__list">
+            <li>
+              <a class="nav__link" href="#home">Home</a>
+            </li>
+
+            <li>
+              <a class="nav__link" href="#about">About Us</a>
+            </li>
+
+            <li>
+              <a class="nav__link" href="#new">New</a>
+            </li>
+
+            <li>
+              <a class="nav__link" href="#collection">Collection</a>
+            </li>
+
+            <li>
+              <a class="nav__link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <div class="nav__close" id="nav__close">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+          <div class="nav__social" id="nav__social">
+            <a
+              href="https://www.facebook.com/"
+              class="nav__social-link"
+            >
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/"
+              class="nav__social-link"
+            >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+            <a
+              href="https://twitter.com/"
+              class="nav__social-link"
+            >
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          </div>
+        </div>
+        <div class="nav__toggle" id="nav__toggle">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </div>
+      </nav>
+    </header>
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <section class="home">
+        <div class="home__container">
+          <div class="home__data">
+            <h3 class="home__subtitle">NEW IN</h3>
+            <div thumsSlider class="home__titles swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <h1 class="home__title">
+                    Yeezy Boost <br> 350 V2 Clay
+                  </h1>
+                </div>
+                <div class="swiper-slide">
+                  <h1 class="home__title">
+                    Hyperdunk X <br> TB Urban Red
+                  </h1>
+                </div>
+                <div class="swiper-slide">
+                  <h1 class="home__title">
+                    Air Mag <br> 3000 X1 Future 
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <a href="#" class="home__button">
+              Buy Now <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+          <div class="home__images">
+            <div class="home__swiper swiper">
+              <div class="swiper-wrapper">
+                <article class="home__article swiper-slide">
+                  <div class="home__card">
+                    <div class="home__circle home__circle__1">
+                      <img src="assets/img/sneaker-1.png" alt="" class="home__img__1">
+                      <img src="assets/img/sneaker-2.png" alt="" class="home__img__2">
+                    </div>
+                  </div>
+                </article>
+                <article class="home__article swiper-slide">
+                  <div class="home__card">
+                    <div class="home__circle home__circle__2">
+                      <img src="assets/img/sneaker-3.png" alt="" class="home__img__1">
+                      <img src="assets/img/sneaker-4.png" alt="" class="home__img__2">
+                    </div>
+                  </div>
+                </article>
+                <article class="home__article swiper-slide">
+                  <div class="home__card">
+                    <div class="home__circle home__circle__3">
+                      <img src="assets/img/sneaker-5.png" alt="" class="home__img__1">
+                      <img src="assets/img/sneaker-6.png" alt="" class="home__img__2">
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+          <footer class="home__footer">
+            <div class="home__controls">
+              <!-- pagination -->
+              <div class="swiper-pagination"></div>
+                <!-- navigation buttons -->
+                <div class="home__navigation">
+                  <div class="swiper-button-next">
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                  <div class="swiper-button-prev">
+                    <i class="fa-solid fa-arrow-left"></i>
+                  </div>
+                </div>
+            </div>
+            <div class="home__social">
+              <a target="_blank" href="https://www.facebook.com/" class="home__social-link">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a target="_blank" href="https://www.instagram.com/" class="home__social-link">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a target="_blank" href="https://twitter.com/" class="home__social-link">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </div>
+          </footer>
+        </div>
+      </section>
+    </main>
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!--=============== SCRIPT JS ===============-->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
